@@ -9,6 +9,6 @@
  
 }
 
-.clip{
-  clip: rect(auto, auto, auto, auto);
+*{
+  box-sizing: border-box;
 }
