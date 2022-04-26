@@ -45,7 +45,9 @@ export default function Resto() {
             <div
               key={index}
               id={item.id}
-              className={`${activeClass === index && 'text-yellow-300'} p-2 select-none cursor-pointer`}
+              className={`${
+                activeClass === index && 'text-yellow-300'
+              } p-2 select-none cursor-pointer transition-colors duration-300 ease-in-out hover:text-yellow-300`}
               onClick={e => activeMenu(e, index, item.name)}>
               {item.name}
             </div>
