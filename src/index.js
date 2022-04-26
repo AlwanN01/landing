@@ -7,14 +7,12 @@ import Property from './pages/Property'
 import Resto from './pages/Resto'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/Resto' element={<Resto />} />
-        <Route path='Property' element={<Property />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />} />
+      <Route path='/Resto' element={<Resto />} />
+      <Route path='Property' element={<Property />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 )
