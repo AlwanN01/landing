@@ -12,10 +12,11 @@ export default function Resto() {
   const [activeHoverLeft, setActiveHoverLeft] = useState(false)
   const indicator = useRef()
   useEffect(() => {
-    const home = document.querySelector('#link-home')
-    const mid = (indicator.current.getBoundingClientRect().width - home.getBoundingClientRect().width) / 2
-    console.log(mid)
-    indicator.current.style.transform = `translateX(calc(${home.getBoundingClientRect().left}px - ${mid}px)) scaleY(0.5)`
+    setTimeout(() => {
+      const home = document.querySelector('#link-home')
+      const mid = (indicator.current.getBoundingClientRect().width - home.getBoundingClientRect().width) / 2
+      indicator.current.style.transform = `translateX(calc(${home.getBoundingClientRect().left}px - ${mid}px)) scaleY(0.5)`
+    }, 10)
   }, [])
 
   const activeMenu = (e, index, hash) => {
@@ -69,6 +70,21 @@ export default function Resto() {
           <FindUs className={'w-36 float-right my-5 cursor-pointer'} />
           <p className='clear-both text-lg'>Jl. Bangkit Blok 15 No. 16, Panyileukan, Kota Bandung Jawa Barat, Indonesia</p>
         </div>
+        <div className='absolute bottom-10 px-28 flex justify-between mb-10 w-full border'>
+          <div className='flex items-center'>
+            <p>Content 1</p>
+          </div>
+          <div className='flex items-center'>
+            <p>Content 1</p>
+          </div>
+          <div className='flex items-center'>
+            <p>Content 1</p>
+          </div>
+          <div className='flex items-center'>
+            <p>Content 1</p>
+          </div>
+        </div>
+
         <div ref={refLeft} className='mx-auto w-1/3 h-full absolute left-0 z-10 select-none' />
         <div ref={refRight} className='mx-auto w-1/3 h-full absolute right-0 z-10 select-none' />
         <img
