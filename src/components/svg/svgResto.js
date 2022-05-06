@@ -1,6 +1,55 @@
 import React from 'react'
 
 
+export const LogoExperience = ({className}) => {
+  return (
+<svg className={className} viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M23 28C25.7614 28 28 25.7614 28 23C28 20.2386 25.7614 18 23 18C20.2386 18 18 20.2386 18 23C18 25.7614 20.2386 28 23 28Z" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M23 12V14" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M23 32V34" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M15.2197 15.2197L16.6397 16.6397" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M29.3604 29.3604L30.7804 30.7804" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M12 23H14" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M32 23H34" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M15.2197 30.7804L16.6397 29.3604" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <path d="M29.3604 16.6397L30.7804 15.2197" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+  <circle cx={23} cy={23} r={22} className='stroke-current' strokeWidth={2} />
+</svg>
+
+  )
+}
+
+export const LogoReservation = ({className}) => {
+  return (
+    <svg className={className} viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 14H19C20.0609 14 21.0783 14.4214 21.8284 15.1716C22.5786 15.9217 23 16.9391 23 18V32C23 31.2044 22.6839 30.4413 22.1213 29.8787C21.5587 29.3161 20.7956 29 20 29H13V14Z" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M33 14H27C25.9391 14 24.9217 14.4214 24.1716 15.1716C23.4214 15.9217 23 16.9391 23 18V32C23 31.2044 23.3161 30.4413 23.8787 29.8787C24.4413 29.3161 25.2044 29 26 29H33V14Z" className='stroke-current' strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <circle cx={23} cy={23} r={22} className='stroke-current' strokeWidth={2} />
+  </svg>
+  
+  )
+}
+
+export const LogoHour = ({className}) => {
+  return (
+    <svg className={className} viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M23 33C28.5228 33 33 28.5228 33 23C33 17.4772 28.5228 13 23 13C17.4772 13 13 17.4772 13 23C13 28.5228 17.4772 33 23 33Z" className='stroke-current' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M23 17V23L27 25" className='stroke-current' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <circle cx="23" cy="23" r="22" className='stroke-current' strokeWidth="2"/>
+    </svg>
+
+  )
+}
+
+export const LogoLocation = ({className}) => {
+  return (
+    <svg className={className} viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M32 21C32 28 23 34 23 34C23 34 14 28 14 21C14 18.6131 14.9482 16.3239 16.636 14.636C18.3239 12.9482 20.6131 12 23 12C25.3869 12 27.6761 12.9482 29.364 14.636C31.0518 16.3239 32 18.6131 32 21Z" className='stroke-current' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M23 24C24.6569 24 26 22.6569 26 21C26 19.3431 24.6569 18 23 18C21.3431 18 20 19.3431 20 21C20 22.6569 21.3431 24 23 24Z" className='stroke-current' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <circle cx="23" cy="23" r="22" className='stroke-current' strokeWidth="2"/>
+    </svg>
+)}
+  
 export const FindUs = ({className}) => {
   return (
 <svg className={className} viewBox="0 0 180 67" fill="none" xmlns="http://www.w3.org/2000/svg">
